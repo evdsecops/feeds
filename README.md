@@ -35,9 +35,9 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 
 ### 4. **Distribuição**
 - Distribuição via arquivos `.txt` e `.json` em:
-  - [`feeds/malicious_ips.txt`](feeds/malicious_ips.txt)
-  - [`feeds/malicious_domains.txt`](feeds/malicious_domains.txt)
-  - [`feeds/malicious_hashes.txt`](feeds/malicious_hashes.txt)
+  - [malicious_ips.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_ips.txt)
+  - [malicious_domains.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_domains.txt)
+  - [malicious_hashes.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_hashes.txt)
 
 ### 5. **Feedback e Melhoria**
 - Logs de uso nos ambientes corporativos.
