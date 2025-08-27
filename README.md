@@ -20,7 +20,6 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 - Fontes utilizadas:
   - [AbuseIPDB](https://abuseipdb.com)
   - [MalwareBazaar](https://bazaar.abuse.ch)
-  - Honeypots próprios (scripts em Python)
 - Coletas automatizadas via APIs e processadas diariamente.
 
 ### 2. **Processamento**
@@ -31,10 +30,10 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 ### 3. **Análise**
 - Enriquecimento de dados (em andamento).
 - Priorização com base em frequência e categoria de ameaça.
-- Roteamento por tipo de IOC (IPs, domínios, arquivos).
+- Roteamento por tipo de IOC (IPs, domínios, hashes).
 
 ### 4. **Distribuição**
-- Distribuição via arquivos `.txt` e `.json` em:
+- Distribuição via arquivos `.txt` em:
   - [malicious_ips.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_ips.txt)
   - [malicious_domains.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_domains.txt)
   - [malicious_hashes.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_hashes.txt)
