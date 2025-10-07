@@ -38,10 +38,6 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
   - [malicious_domains.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_domains.txt)
   - [malicious_hashes.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_hashes.txt)
 
-### 5. **Feedback e Melhoria**
-- Logs de uso nos ambientes corporativos.
-- Pull Requests são bem-vindos para sugerir novas fontes ou melhorias.
-
 ## 📂 Formato dos Feeds
 
 | Tipo       | Arquivo                      | Descrição                              |
@@ -51,12 +47,6 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 | Hashes     | `malicious_hashes.txt`       | Hashes SHA256 de amostras maliciosas.  |
 
 > ⚠️ Todos os feeds são formatados com **um IOC por linha**, sem cabeçalho, compatível com FortiGate (`external-resource`), SIEMs e scripts de automação.
-
-## 🔐 Segurança e Governança
-
-- Commits assinado digitalmente.
-- Histórico de mudanças auditável.
-- Branch principal protegida.
 
 ## 🤝 Contribuições
 
