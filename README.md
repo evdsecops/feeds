@@ -36,12 +36,8 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 
 | Tipo       | Arquivo                      | Descrição                              |
 |------------|------------------------------|----------------------------------------|
-| IPs        | `malicious_ips.txt`          | Lista de IPs identificados com má reputação. |
+| IPs        | `malicious_address.txt`          | Lista de IPs identificados com má reputação. |
 | Domínios   | `malicious_domains.txt`      | Domínios utilizados para C2 e phishing. |
 | Hashes     | `malicious_hashes.txt`       | Hashes SHA256 de amostras maliciosas.  |
 
 > ⚠️ Todos os feeds são formatados com **um IOC por linha**, sem cabeçalho, compatível com FortiGate (`external-resource`), SIEMs e scripts de automação.
-
-## 🤝 Contribuições
-
-Este projeto é aberto para **colaborações da comunidade de segurança**. Sugestões, novas fontes e melhorias são bem-vindas via Issues ou Pull Requests.
