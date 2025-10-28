@@ -32,12 +32,6 @@ A construção destes feeds segue práticas de **Cyber Threat Intelligence (CTI)
 - Priorização com base em frequência e categoria de ameaça.
 - Roteamento por tipo de IOC (IPs, domínios, hashes).
 
-### 4. **Distribuição**
-- Distribuição via arquivos `.txt` em:
-  - [malicious_ips.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_ips.txt)
-  - [malicious_domains.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_domains.txt)
-  - [malicious_hashes.txt (raw)](https://raw.githubusercontent.com/evdsecops/feeds/main/malicious_hashes.txt)
-
 ## 📂 Formato dos Feeds
 
 | Tipo       | Arquivo                      | Descrição                              |
